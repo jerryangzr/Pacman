@@ -1,0 +1,6 @@
+pacman.Controller
+pacman.Model
+pacman.Model.Game
+pacman.Model.HighScore
+pacman.Model.Manager
+pacman.Model.Setting

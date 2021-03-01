@@ -1,0 +1,9 @@
+
+.table-row-cell{
+    -fx-cell-size: 49.5px;
+    -fx-alignment: center;
+}
+
+.table-column {
+ 	-fx-alignment: center; 
+} 

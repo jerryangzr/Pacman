@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="700.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pacman.Controller.RankingController">
+   <children>
+      <TableView fx:id="playerTable" layoutX="173.0" layoutY="29.0" prefHeight="514.0" prefWidth="370.0" AnchorPane.bottomAnchor="118.0" AnchorPane.leftAnchor="150.0" AnchorPane.rightAnchor="80.0" AnchorPane.topAnchor="50.0">
+         <columns>
+            <TableColumn fx:id="NameColumn" prefWidth="236.0" resizable="false" text="Name" />
+            <TableColumn fx:id="ScoreColumn" prefWidth="133.0" resizable="false" text="Score" />
+         </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+      <GridPane layoutX="80.0" layoutY="81.0" prefHeight="479.0" prefWidth="90.0" AnchorPane.bottomAnchor="130.0" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="70.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="116.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="116.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="76.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="60.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="55.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="1.7976931348623157E308" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Text fill="#e1c915" strokeType="OUTSIDE" strokeWidth="0.0" text="No.1" GridPane.halignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font></Text>
+            <Text fill="#b9aeae" strokeType="OUTSIDE" strokeWidth="0.0" text="No.2" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font></Text>
+            <Text fill="#a8742b" strokeType="OUTSIDE" strokeWidth="0.0" text="No.3" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font></Text>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="No.4" GridPane.halignment="CENTER" GridPane.rowIndex="3">
+               <font>
+                  <Font size="14.0" />
+               </font></Text>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="No.5" GridPane.halignment="CENTER" GridPane.rowIndex="4">
+               <font>
+                  <Font size="14.0" />
+               </font></Text>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="No.6" GridPane.halignment="CENTER" GridPane.rowIndex="5">
+               <font>
+                  <Font size="14.0" />
+               </font></Text>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="No.7" GridPane.halignment="CENTER" GridPane.rowIndex="6">
+               <font>
+                  <Font size="14.0" />
+               </font></Text>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="No.8" GridPane.halignment="CENTER" GridPane.rowIndex="7">
+               <font>
+                  <Font size="14.0" />
+               </font></Text>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="No.9" GridPane.halignment="CENTER" GridPane.rowIndex="8">
+               <font>
+                  <Font size="14.0" />
+               </font></Text>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="No.10" GridPane.halignment="CENTER" GridPane.rowIndex="9">
+               <font>
+                  <Font size="14.0" />
+               </font></Text>
+         </children>
+      </GridPane>
+      <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#ControlBack" prefWidth="100.0" text="Back" AnchorPane.bottomAnchor="60.0" AnchorPane.leftAnchor="280.0" />
+   </children>
+</AnchorPane>

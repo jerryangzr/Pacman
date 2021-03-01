@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pacman.Controller.MenuController">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="600.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints maxHeight="398.0" minHeight="10.0" prefHeight="288.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="314.0" minHeight="10.0" prefHeight="89.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="266.0" minHeight="10.0" prefHeight="132.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="246.0" minHeight="10.0" prefHeight="141.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Button mnemonicParsing="false" onAction="#ControlSetup" prefWidth="150.0" text="Setting" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+            <TextField fx:id="Username" alignment="CENTER" prefHeight="30.0" prefWidth="468.0" promptText="Enter Your Name" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets left="150.0" right="150.0" />
+               </GridPane.margin>
+            </TextField>
+            <ImageView fx:id="MenuImage2" fitHeight="150.0" fitWidth="307.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+            <Button mnemonicParsing="false" onAction="#ControlViewHighScore" prefHeight="18.0" prefWidth="150.0" text="HighScore" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM" />
+            <Button mnemonicParsing="false" onAction="#ControlStartGame" prefWidth="150.0" text="Start" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="TOP" />
+         </children>
+      </GridPane>
+      <ImageView fx:id="MenuImage1" fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true" GridPane.valignment="TOP">
+         <GridPane.margin>
+            <Insets top="30.0" />
+         </GridPane.margin></ImageView>
+   </children>
+</GridPane>
