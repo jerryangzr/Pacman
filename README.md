@@ -1,6 +1,6 @@
-# Pacman
+# Pacman Game 
 
-The menu of the Pacman game: 
+The `menu` page of the Pacman game: 
 
 <p align="center"> 
   <img src="menu.png" width="500"/>
