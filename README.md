@@ -2,16 +2,25 @@
 
 The menu of the Pacman game: 
 
-![image](/menu.png)
+<p align="center"> 
+  <img src="menu.png" width="500"/>
+</p>  
 
 The `Setting` page: 
 
-![image](/setting.png)
+<p align="center"> 
+  <img src="setting.png" width="500"/>
+</p>  
 
 The `Highscore Rank`: 
 
-![image](/highscore.png)
+<p align="center"> 
+  <img src="highscore.png" width="500"/>
+</p>  
 
 The `Map Layout`: 
 
-![image](/Map.png)
+<p align="center"> 
+  <img src="Map.png"/>
+</p>  
+
