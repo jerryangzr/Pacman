@@ -1,4 +1,4 @@
-# Pacman Game 
+# Java Pacman Game 
 
 The `menu` page of the Pacman game: 
 
